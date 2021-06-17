@@ -60,7 +60,8 @@ Options:
   --flatten, -f       Flatten filestructure           [boolean] [default: false]
   --dry-run, -n       Print a list of which files would be uploaded    [boolean]
   --resumable, -r     Resumable upload                 [boolean] [default: true]
-  --validation, -V    Validation for upload            [boolean] [default: true]
+  --validation, -V    Validation for upload              [string] [default: md5]
+  --timeout, -t       Upload timeout                   [string] [default: 60000]
   --help, -h, -?      Show help                                        [boolean]
   --version, -v       Show version number                              [boolean]
 ```
